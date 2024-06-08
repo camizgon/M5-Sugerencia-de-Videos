@@ -45,7 +45,7 @@ class Reproductor extends Multimedia {
 
   
   setInicio(tiempo) {
-    videoBox.moduleVideo(`${this.url()}&start=${tiempo}`, this.#id);
+    videoBox.moduleVideo(`${this.url}&start=${tiempo}`, this.#id);
   }
 }
 
